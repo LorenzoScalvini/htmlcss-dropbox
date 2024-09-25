@@ -32,29 +32,65 @@ img {
 }
 
 p {
-	padding-bottom: 1rem;
+	padding: 1.5rem;
+}
+
+strong{
+	padding: 1.5rem;
+}
+
+h5 {
+	font-size: 30px;
 }
 
 /* CONTAINER & LAYOUT*/
-.container-full{
-	width: 100%;
-}
-
 .container {
 	max-width: 1200px;
-	display: flex;
+	margin: 0 auto;
+	padding: 2 2rem;
+}
+
+.container-small {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
 .row {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-wrap: wrap;
 }
+
+
+.col-100 {
+	width: 100%;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+.col-30 {
+	width: 30%
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+}
+
 
 /* NAVBAR */
 .navbar {
 	background-color: #ffffff;
 	height: 4rem;
+}
+
+.nav-size{
+	width: 100%;
 }
 
 .menu {
@@ -65,19 +101,16 @@ p {
 }
 
 /* HERO */
+.hero-title {
+	text-align: center;
+	font-size: 54px;
+}
+
 .hero {
 	background-color: #b4d0e6;
 }
 
-.hero-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 8rem;
-
-}
-
-/*  Other */
+/*  Other / utilities */
 
 .btn {
 	width: auto;
@@ -94,4 +127,21 @@ p {
 
 .icon-style {
 	font-size: 40px;
+}
+
+.form-style{
+	padding: 3rem;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.icon-size{
+	font-size: 4rem;
+}
+
+.check-style {
+	color: #0160ff;
+	font-size: 24px;
 }
