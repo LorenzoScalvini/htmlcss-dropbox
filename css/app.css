@@ -48,14 +48,15 @@ h1 {
 	padding-top: 9rem;
 }
 
+div {
+	padding: 0.5rem;
+}
+
 /* CONTAINER & LAYOUT*/
 .container-full {
 	max-width: 100%;
 	margin: 0 auto;
 	padding: 2 2rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .container {
@@ -102,12 +103,15 @@ h1 {
 	height: 4rem;
 }
 
-
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
 .menu {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
+
 /* HERO */
 .hero-title {
 	text-align: center;
