@@ -41,9 +41,23 @@ strong{
 
 h5 {
 	font-size: 30px;
+	padding: 1.5rem;
+}
+
+h1 {
+	padding-top: 9rem;
 }
 
 /* CONTAINER & LAYOUT*/
+.container-full {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 2 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -60,7 +74,6 @@ h5 {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 
 .col-100 {
 	width: 100%;
@@ -89,17 +102,12 @@ h5 {
 	height: 4rem;
 }
 
-.nav-size{
-	width: 100%;
-}
 
 .menu {
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 /* HERO */
 .hero-title {
 	text-align: center;
@@ -113,11 +121,16 @@ h5 {
 /*  Other / utilities */
 
 .btn {
-	width: auto;
-	height: 1.8;
-	border: none;
+	width:4.4rem;
+	height: 1.8rem;
 	cursor: pointer;
 	padding: 0.5rem;
+	border:none;
+}
+
+.btn-wide {
+	width: 15rem;
+	height: 2.5rem;
 }
 
 .btn.btn-blue {
@@ -125,8 +138,15 @@ h5 {
 	color: #ffffff;
 }
 
+.btn.btn-blue {
+	background-color: #0160ff;
+	color: #ffffff;
+	border:black;
+}
+
 .icon-style {
-	font-size: 40px;
+	font-size: 1rem;
+	padding: 1rem;
 }
 
 .form-style{
@@ -139,9 +159,17 @@ h5 {
 
 .icon-size{
 	font-size: 4rem;
+	padding: 1rem;
 }
 
 .check-style {
 	color: #0160ff;
-	font-size: 24px;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+.border-grey {
+	border-style: solid;
+	border-color: #ededed;
+	border-width: 0.5px;
 }
