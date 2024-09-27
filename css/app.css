@@ -45,7 +45,7 @@ h5 {
 }
 
 h1 {
-	padding-top: 9rem;
+	padding-top: 5rem;
 }
 
 div {
@@ -55,8 +55,6 @@ div {
 /* CONTAINER & LAYOUT*/
 .container-full {
 	max-width: 100%;
-	margin: 0 auto;
-	padding: 2 2rem;
 }
 
 .container {
@@ -96,7 +94,9 @@ div {
 	width: calc(100% / 3);
 }
 
-
+.square {
+	aspect-ratio: 1/1;
+}
 /* NAVBAR */
 .navbar {
 	background-color: #ffffff;
@@ -176,4 +176,52 @@ div {
 	border-style: solid;
 	border-color: #ededed;
 	border-width: 0.5px;
+}
+
+.img-70 {
+	width: 70%;
+}
+
+.color-white {
+	background-color: #ffffff;
+}
+.color-green {
+	background: #A2D39B;
+}
+
+.color-cyan {
+	background: #0093CE;
+}
+
+.color-red {
+	background-color: #FF1C1C;
+}
+
+.color-darkred{
+	background-color: #61082B;
+;
+}
+
+.color-lightgrey {
+	background-color: #F5F5F5;
+	;
+}
+
+.color-red-2 {
+	background-color: #D5001F;
+	;
+}
+
+.color-sandgrey {
+	background-color: #B4D0E7;
+}
+
+.color-yellow {
+	background-color: #FFD830;
+
+}
+
+.color-blue {
+	background-color: #0D2481;
+
 }
